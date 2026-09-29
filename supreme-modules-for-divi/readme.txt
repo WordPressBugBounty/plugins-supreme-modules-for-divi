@@ -3,9 +3,9 @@ Contributors: divisupreme, kenng87
 Tags: Divi, Divi Module, Divi Page Builder, divi theme, divi builder, Divi Extensions
 Donate link: https://divisupreme.com/supreme-modules-lite-for-divi/
 Requires at least: 4.5
-Tested up to: 6.9
+Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.5.63
+Stable tag: 2.5.64
 License: GPLv2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -111,6 +111,11 @@ This is a common question that we get asked here every now and then which is why
 
 
 == Changelog ==
+= 2.5.64 – 29.09.2026 =
+* Fixed: Sanitized header and footer CSS Classes to prevent stored XSS.
+* Fixed: load_plugin_textdomain() now uses the supreme-modules-for-divi text domain.
+* Improved: Tested up to WordPress 7.1.
+
 = 2.5.63 – 19.12.2025 =
 * Improved: Hardened security for JSON uploads to prevent file upload vulnerabilities via JSON upload bypass.
 
